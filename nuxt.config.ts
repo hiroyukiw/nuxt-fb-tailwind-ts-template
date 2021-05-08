@@ -1,5 +1,6 @@
-export default {
-  // Global page headers: https://go.nuxtjs.dev/config-head
+import { NuxtConfig } from '@nuxt/types'
+
+const config: NuxtConfig = {
   head: {
     title: 'nuxt-fb-tailwind-ts-template',
     meta: [
@@ -9,7 +10,6 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
-
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
 
@@ -54,3 +54,5 @@ export default {
     },
   },
 }
+
+export default config
